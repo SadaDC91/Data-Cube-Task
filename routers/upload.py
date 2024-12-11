@@ -2,6 +2,10 @@ from fastapi import APIRouter, File, UploadFile
 from app.utils.embeddings import generate_embedding
 from app.utils.redis_client import redis_client
 
+from ..utils.embeddings import generate_embedding
+from ..utils.redis_client import redis_client
+
+
 router = APIRouter()
 
 @router.post("/")

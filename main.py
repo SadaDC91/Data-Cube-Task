@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from app.routers import upload, search # type: ignore
+from app.routers import upload, search
 
 app = FastAPI()
 
