@@ -1,0 +1,10 @@
+/RedisVectorAssistant
+├── app/
+│   ├── main.py
+│   ├── routers/
+│   │   ├── upload.py
+│   │   └── search.py
+│   ├── utils/
+│   │   ├── embeddings.py
+│   │   └── redis_client.py
+└── requirements.txt
